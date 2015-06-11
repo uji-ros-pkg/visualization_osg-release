@@ -1,0 +1,12 @@
+Source: ros-hydro-osg-markers
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, openscenegraph, ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-roslib, ros-hydro-tf, ros-hydro-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-osg-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, openscenegraph, ros-hydro-roscpp, ros-hydro-roslib, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: osg_markers can be used to create Markers geometry in OSG.
