@@ -1,0 +1,12 @@
+Source: ros-hydro-visualization-osg
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://wiki.ros.org/osg_interactive_markers
+Standards-Version: 3.9.2
+
+Package: ros-hydro-visualization-osg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-osg-interactive-markers, ros-hydro-osg-markers, ros-hydro-osg-utils
+Description: visualization_osg is a metapackage providing support for visualization of geometry using the OpenSceneGraph rendering engine.
