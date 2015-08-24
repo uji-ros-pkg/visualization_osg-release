@@ -1,0 +1,12 @@
+Source: ros-indigo-osg-utils
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-osg-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-tf
+Description: osg_utils is a library that contains some classes that may be useful in ROS-OSG applications.
