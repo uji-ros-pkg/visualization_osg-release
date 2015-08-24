@@ -1,0 +1,8 @@
+ros-indigo-visualization-osg (1.0.1-0saucy) saucy; urgency=high
+
+  * catkinizing package
+  * Contributors: perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 14:00:00 -0000
+
+
