@@ -1,0 +1,12 @@
+Source: ros-indigo-visualization-osg
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/osg_interactive_markers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-visualization-osg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-osg-interactive-markers, ros-indigo-osg-markers, ros-indigo-osg-utils
+Description: visualization_osg is a metapackage providing support for visualization of geometry using the OpenSceneGraph rendering engine.
