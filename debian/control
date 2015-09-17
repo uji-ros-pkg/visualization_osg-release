@@ -1,0 +1,12 @@
+Source: ros-indigo-osg-markers
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, libopenscenegraph99, libopenthreads-dev, libopenthreads14, openscenegraph, ros-indigo-catkin, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-tf, ros-indigo-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-osg-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, libopenscenegraph99, libopenthreads-dev, libopenthreads14, openscenegraph, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: osg_markers can be used to create Markers geometry in OSG.
