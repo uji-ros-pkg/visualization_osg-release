@@ -1,0 +1,18 @@
+ros-jade-osg-utils (1.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Javier Perez <japerez@uji.es>  Wed, 16 Sep 2015 14:00:00 -0000
+
+ros-jade-osg-utils (1.0.1-0trusty) trusty; urgency=high
+
+  * catkin_make_isolated compatibility
+  * catkinizing package
+  * IM: fixes for hydro
+  * IM: Fixes for fuerte
+  * osg_interactive_markers changed example name
+  * Contributors: mailto:marioprats@gmail.com, perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 14:00:00 -0000
+
+
