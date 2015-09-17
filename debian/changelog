@@ -1,0 +1,24 @@
+ros-jade-osg-interactive-markers (1.0.2-0trusty) trusty; urgency=high
+
+  * Changed return type to object, as osg was internally creating a copy (temporary reference return)
+  * Now mesh interactive markers autoscale to mesh size.
+  * Contributors: perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 16 Sep 2015 14:00:00 -0000
+
+ros-jade-osg-interactive-markers (1.0.1-0trusty) trusty; urgency=high
+
+  * catkin_make_isolated compatibility
+  * catkinizing package
+  * osg_interactive_markers: fixed bug that published world tranform feedback instead of local transform
+  * IM: Fixed bug that removed all the scene when deleting IM
+  * IM: delete markers scenegraph in destructors
+  * IM: Fixes for fuerte
+  * IM: fixed wall_dt and ros_dt in demo
+  * IM: fix for getting fixed_frame from frameManager
+  * osg_interactive_markers changed example name
+  * Contributors: mailto:marioprats@gmail.com, perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 14:00:00 -0000
+
+
