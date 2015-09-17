@@ -36,6 +36,7 @@
 
 #include <osg/PositionAttitudeTransform>
 #include <osg/MatrixTransform>
+#include <osg/Material>
 
 namespace osg_markers {
 
@@ -46,6 +47,8 @@ MarkerBase::MarkerBase(osg::Node* parent_node)
 	scene_node_->setName("MarkerBase Scale PAT");
 	base_node_->asGroup()->addChild(scene_node_);
 	message_.reset();
+
+        scale_base_node=1.0;
 }
 
 MarkerBase::~MarkerBase()
@@ -83,22 +86,41 @@ void MarkerBase::setOrientation( const osg::Quat& orientation )
 
 void MarkerBase::setScale( const osg::Vec3d& scale )
 {
-	scene_node_->asTransform()->asPositionAttitudeTransform()->setScale(scale);
+	scene_node_->asTransform()->asPositionAttitudeTransform()->setScale(scale*scale_base_node);
 }
 
-const osg::Vec3d& MarkerBase::getPosition()
+
+void MarkerBase::setScaleBase( double scale )
+{
+        scale_base_node=scale;
+	scene_node_->asTransform()->asPositionAttitudeTransform()->setScale(getScale()*scale_base_node);
+}
+
+void MarkerBase::setColor( const osg::Vec4d& color ){
+      	osg::ref_ptr < osg::Material > material = new osg::Material();
+      	material->setDiffuse(osg::Material::FRONT_AND_BACK,color);
+      	scene_node_->getOrCreateStateSet()->setAttribute(material);
+}
+
+const osg::Vec3d MarkerBase::getPosition()
 {
 	return base_node_->asTransform()->asMatrixTransform()->getMatrix().getTrans();
 }
 
-const osg::Quat& MarkerBase::getOrientation()
+const osg::Quat MarkerBase::getOrientation()
 {
 	return base_node_->asTransform()->asMatrixTransform()->getMatrix().getRotate();
 }
 
-const osg::Vec3d& MarkerBase::getScale()
+const osg::Vec3d MarkerBase::getScale()
 {
 	return scene_node_->asTransform()->asPositionAttitudeTransform()->getScale();
+
+}
+
+const double MarkerBase::getScaleBase()
+{
+	return scale_base_node;
 
 }
 
