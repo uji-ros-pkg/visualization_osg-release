@@ -1,0 +1,12 @@
+Source: ros-kinetic-osg-interactive-markers
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-kinetic-catkin, ros-kinetic-interactive-markers, ros-kinetic-osg-markers, ros-kinetic-osg-utils, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-osg-interactive-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-kinetic-interactive-markers, ros-kinetic-osg-markers, ros-kinetic-osg-utils, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: This package is basically an OpenSceneGraph (OSG) adaptation of the Interactive Markers client writen for rviz/Ogre.
