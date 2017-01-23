@@ -1,0 +1,12 @@
+Source: ros-kinetic-osg-markers
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, openscenegraph, ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-osg-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, openscenegraph, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: osg_markers can be used to create Markers geometry in OSG.
