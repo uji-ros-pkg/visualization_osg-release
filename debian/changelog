@@ -1,0 +1,14 @@
+ros-kinetic-visualization-osg (1.0.2-0wily) wily; urgency=high
+
+
+
+ -- Javier Perez <japerez@uji.es>  Wed, 16 Sep 2015 22:00:00 -0000
+
+ros-kinetic-visualization-osg (1.0.1-0wily) wily; urgency=high
+
+  * catkinizing package
+  * Contributors: perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 22:00:00 -0000
+
+
