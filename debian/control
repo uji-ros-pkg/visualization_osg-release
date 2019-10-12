@@ -1,0 +1,12 @@
+Source: ros-melodic-osg-interactive-markers
+Section: misc
+Priority: extra
+Maintainer: Javier Perez <japerez@uji.es>
+Build-Depends: debhelper (>= 9.0.0), libopenscenegraph-dev, openscenegraph, ros-melodic-catkin, ros-melodic-interactive-markers, ros-melodic-osg-markers, ros-melodic-osg-utils, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-osg-interactive-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenscenegraph-dev, openscenegraph, ros-melodic-interactive-markers, ros-melodic-osg-markers, ros-melodic-osg-utils, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-visualization-msgs
+Description: This package is basically an OpenSceneGraph (OSG) adaptation of the Interactive Markers client writen for rviz/Ogre.
