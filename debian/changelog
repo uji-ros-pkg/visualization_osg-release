@@ -1,0 +1,14 @@
+ros-melodic-visualization-osg (1.0.2-1stretch) stretch; urgency=high
+
+
+
+ -- Javier Perez <japerez@uji.es>  Wed, 16 Sep 2015 22:00:00 -0000
+
+ros-melodic-visualization-osg (1.0.1-1stretch) stretch; urgency=high
+
+  * catkinizing package
+  * Contributors: perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 22:00:00 -0000
+
+
