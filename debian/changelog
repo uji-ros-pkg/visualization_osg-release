@@ -1,0 +1,22 @@
+ros-melodic-osg-markers (1.0.2-2stretch) stretch; urgency=high
+
+  * Fixed return to temporary object, marker was returning references to copied objects
+  * Fixed some issues with color in markers
+  * Now mesh interactive markers autoscale to mesh size.
+  * Contributors: perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 16 Sep 2015 22:00:00 -0000
+
+ros-melodic-osg-markers (1.0.1-2stretch) stretch; urgency=high
+
+  * catkin_make_isolated compatibility
+  * catkinizing package
+  * IM: Fixes for fuerte
+  * IM: removed logs
+  * IM: Partial bug fix for showing text markers, although not screen-aligned for now
+  * osg_interactive_markers changed example name
+  * Contributors: mailto:marioprats@gmail.com, perezsolerj
+
+ -- Javier Perez <japerez@uji.es>  Wed, 10 Jun 2015 22:00:00 -0000
+
+
