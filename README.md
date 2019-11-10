@@ -1,3 +1,30 @@
+## visualization_osg (melodic) - 1.0.2-2
+
+The packages in the `visualization_osg` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release --rosdistro melodic --track melodic visualization_osg --edit` on `Sun, 10 Nov 2019 20:22:41 -0000`
+
+These packages were released:
+- `osg_interactive_markers`
+- `osg_markers`
+- `osg_utils`
+- `visualization_osg`
+
+Version of package(s) in repository `visualization_osg`:
+
+- upstream repository: https://github.com/uji-ros-pkg/visualization_osg.git
+- release repository: https://github.com/uji-ros-pkg/visualization_osg-release.git
+- rosdistro version: `1.0.2-1`
+- old version: `1.0.2-1`
+- new version: `1.0.2-2`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.40`
+
+
 ## visualization_osg (melodic) - 1.0.2-1
 
 The packages in the `visualization_osg` repository were released into the `melodic` distro by running `/usr/bin/bloom-release visualization_osg --rosdistro melodic` on `Sat, 12 Oct 2019 07:37:10 -0000`
