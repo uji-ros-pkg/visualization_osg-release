@@ -4,10 +4,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   tf
   interactive_markers
+  osg_markers
+  osg_utils
 )
-
-find_package(osg_utils REQUIRED)
-find_package(osg_markers REQUIRED)
 
 catkin_package(
 INCLUDE_DIRS include
@@ -16,9 +15,9 @@ CATKIN_DEPENDS
   roscpp
   tf
   interactive_markers
-DEPENDS
   osg_markers
   osg_utils
+DEPENDS
   libopenscenegraph
 )
 
